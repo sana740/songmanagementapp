@@ -1,0 +1,79 @@
+body {
+    /* background-color: #E4A5FF; */
+    background: -webkit-linear-gradient(left, rgb(149,131,180) 0%, rgb(119,131,180) 59%, rgb(165,187,207) 89%)
+}
+
+h3 {
+    color: #9583B4;
+    font-weight: normal;
+    font-size: 24px;
+}
+
+h5 {
+    color: #9583B4;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+h2 {
+    color: white;
+    font-weight: bold;
+    font-size: 28px;
+    text-align: center;
+}
+
+#input-style {
+    border-radius: 26px;
+    width: 105%;
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+    align-items: center;
+}
+
+#center{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12%;
+    /* height: 100vh; */
+    /* background: -webkit-linear-gradient(left, rgb(149,131,180) 0%, rgb(119,131,180) 59%, rgb(165,187,207) 89%) */
+  }
+
+/* #center{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+  } */
+
+  table {
+    border-collapse: collapse;
+    /* width: 70%; */
+    margin: 0 auto; /* Center the table horizontally */
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #ddd;
+    font-weight: bold;
+}
